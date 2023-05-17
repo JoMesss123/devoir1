@@ -1,0 +1,18 @@
+.cardinformation{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.cardspan{
+    display:flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+}
+
+img{
+    padding-right: 0.5rem;
+}

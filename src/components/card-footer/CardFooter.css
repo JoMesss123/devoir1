@@ -1,0 +1,14 @@
+.cardfooter{
+    margin-top: 1rem ;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    align-items: center;
+}
+.avatarimg{
+    width: 15%;
+}
+
+.spanfooter{
+    color: rgb(174, 112, 231);
+}
