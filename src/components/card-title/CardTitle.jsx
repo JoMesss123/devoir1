@@ -1,9 +1,9 @@
 import React from 'react'
 import "./CardTitle.css"
 
-const CardTitle = () => {
+const CardTitle = (props) => {
   return (
-    <h3 className='card-title'>Equiliberium#3429</h3>
+    <h3 className='card-title'>{props.children}</h3>
   )
 }
 

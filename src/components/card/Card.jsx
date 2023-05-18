@@ -10,11 +10,11 @@ const card = () => {
   return (
   <article className='card'>
         <Image />
-        <CardTitle />
-        <CardBody />
-        <CardInformation />
+        <CardTitle>Equiliberium#3429</CardTitle>
+        <CardBody >Our Equilibrium collection promotes balance and calm</CardBody>
+        <CardInformation ></CardInformation>
         <hr/>
-        <CardFooter />
+        <CardFooter ><span className='spanfooter'>Creation of</span> Jule Wyvern</CardFooter>
         
     </article>
   )

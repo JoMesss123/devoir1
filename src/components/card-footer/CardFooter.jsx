@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Cardfooter.css";
 
-const CardFooter = () => {
+const CardFooter = (props) => {
   return (
     <div className='cardfooter'>
         <img src="../../Images/image-avatar.png" className='avatarimg'/>
-        <p><span className='spanfooter'>Creation of</span> Jule Wyvern</p>
+        <p>{props.children}</p>
     </div>
   )
 }

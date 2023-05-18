@@ -1,10 +1,10 @@
 import React from 'react'
 import "./CardBody.css"
 
-const CardBody = () => {
+const CardBody = (props) => {
   return (
     <div className='card-body'>
-        <p>Our Equilibrium collection promotes balance and calm</p>
+        <p>{props.children}</p>
     </div>
   )
 }
